@@ -82,7 +82,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := Tycho
 LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := proprietary/app/Tycho/Tycho.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
@@ -147,6 +147,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := DMService
 LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := proprietary/priv-app/DMService/DMService.apk
+LOCAL_MULTILIB := 32
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -158,7 +159,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := GCS
 LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := proprietary/priv-app/GCS/GCS.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
@@ -169,7 +170,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := HotwordEnrollment
 LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollment/HotwordEnrollment.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
